@@ -1,0 +1,14 @@
+{
+  "repo": "hometap",
+  "feeds": [
+    {
+      "source": "https://www.hometap.com/faqs",
+      "feed_url": "https://www.hometap.com/faqs",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-07-25T15:00:33Z"
+}

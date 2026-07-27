@@ -1,7 +1,17 @@
 aid: hometap
 name: Hometap
-description: Hometap is a company surfaced as a portfolio company of general-catalyst and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Hometap is a Boston-based fintech founded in 2017 that offers homeowners a
+  home equity investment (HEI) — an alternative to home equity loans and HELOCs.
+  In exchange for a share of a home's future value, homeowners receive cash up
+  front with no monthly payments, no interest, and no income or debt-to-income
+  requirements, settling any time within a 10-year term via sale, refinance, or
+  buyout. Homeowners manage their investment and track equity through the free
+  Hometap Home Equity Dashboard. The company has helped more than 26,000
+  homeowners and completed over $1 billion in investments, and is backed by
+  investors including General Catalyst. Hometap does not publish a public
+  developer API or developer portal; this profile captures its public web
+  properties and identity for the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/hometap/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +19,57 @@ x-backed-by:
 - general-catalyst
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://www.hometap.com/favicon/apple-icon-180x180.png
 tags:
 - Company
+- Fintech
+- Home Equity
+- Real Estate
+- Lending
+- Mortgage
+- Consumer Finance
+- PropTech
 apis: []
+common:
+- type: DomainSecurity
+  url: security/hometap-domain-security.yml
+- type: Website
+  url: https://www.hometap.com/
+- type: GettingStarted
+  url: https://www.hometap.com/how-it-works
+- type: Support
+  url: https://www.hometap.com/faqs
+- type: Blog
+  url: https://www.hometap.com/homeowner-resources
+- type: SignUp
+  url: https://go.hometap.com/dashboard/
+- type: Login
+  url: https://go.hometap.com/dashboard/
+- type: PrivacyPolicy
+  url: https://www.hometap.com/privacy/
+- type: TermsOfService
+  url: https://www.hometap.com/legal?section=terms-of-use
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
