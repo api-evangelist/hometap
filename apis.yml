@@ -49,7 +49,7 @@ tags:
 - Company
 - Fintech
 - Home Equity
-- Real-Estate
+- Real Estate
 - Lending
 - Mortgage
 - Consumer Finance
@@ -63,6 +63,7 @@ tags_raw:
 - Mortgage
 - Consumer Finance
 - PropTech
+- Real-Estate
 apis: []
 common:
 - type: DomainSecurity
